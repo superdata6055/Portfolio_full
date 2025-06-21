@@ -483,8 +483,7 @@ function App() {
             <h2 className="text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block">
               Tech Stack
             </h2>
-            
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
                 <h3 className="text-xl font-bold text-blue-400 mb-4">Languages & Tools</h3>
                 <div className="flex flex-wrap gap-3">
@@ -498,7 +497,6 @@ function App() {
                   ))}
                 </div>
               </div>
-              
               <div>
                 <h3 className="text-xl font-bold text-purple-400 mb-4">Frameworks & Libraries</h3>
                 <div className="flex flex-wrap gap-3">
@@ -511,7 +509,6 @@ function App() {
                   ))}
                 </div>
               </div>
-              
               <div>
                 <h3 className="text-xl font-bold text-green-400 mb-4">Visualization</h3>
                 <div className="flex flex-wrap gap-3">
@@ -522,7 +519,6 @@ function App() {
                   ))}
                 </div>
               </div>
-              
               <div>
                 <h3 className="text-xl font-bold text-yellow-400 mb-4">Cloud & DevOps</h3>
                 <div className="flex flex-wrap gap-3">
@@ -534,7 +530,6 @@ function App() {
                 </div>
               </div>
             </div>
-
             {/* AI Section */}
             <div className="mt-12">
               <h3 className="text-2xl font-bold text-pink-400 mb-6">AI</h3>
