@@ -483,8 +483,10 @@ function App() {
             <h2 className="text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block">
               Tech Stack
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div>
+            {/* THIS IS THE MODIFIED CONTAINER */}
+            <div className="flex flex-wrap gap-8"> {/* Changed to flex wrap for unified layout */}
+              {/* Languages & Tools */}
+              <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]">
                 <h3 className="text-xl font-bold text-blue-400 mb-4">Languages & Tools</h3>
                 <div className="flex flex-wrap gap-3">
                   {[
@@ -497,7 +499,8 @@ function App() {
                   ))}
                 </div>
               </div>
-              <div>
+              {/* Frameworks & Libraries */}
+              <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]">
                 <h3 className="text-xl font-bold text-purple-400 mb-4">Frameworks & Libraries</h3>
                 <div className="flex flex-wrap gap-3">
                   {[
@@ -509,7 +512,8 @@ function App() {
                   ))}
                 </div>
               </div>
-              <div>
+              {/* Visualization */}
+              <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]">
                 <h3 className="text-xl font-bold text-green-400 mb-4">Visualization</h3>
                 <div className="flex flex-wrap gap-3">
                   {['Power BI', 'Tableau', 'Looker'].map((skill) => (
@@ -519,7 +523,8 @@ function App() {
                   ))}
                 </div>
               </div>
-              <div>
+              {/* Cloud & DevOps */}
+              <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]">
                 <h3 className="text-xl font-bold text-yellow-400 mb-4">Cloud & DevOps</h3>
                 <div className="flex flex-wrap gap-3">
                   {['Azure', 'DevOps', 'Zapier', 'Make', 'n8n', 'Microsoft AutoGen', 'LlamaIndex', 'Pinecone', 'Supabase'].map((skill) => (
@@ -529,100 +534,101 @@ function App() {
                   ))}
                 </div>
               </div>
-            </div>
-            {/* AI Section */}
-            <div className="mt-12">
-              <h3 className="text-2xl font-bold text-pink-400 mb-6">AI</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* AI Scrapping */}
-                <div>
-                  <h4 className="text-lg font-bold text-blue-400 mb-2">AI Scrapping</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Chat4Data', 'Firecrawl', 'Crawl4AI', 'Gobii', 'NewsAPI', 'SerpApi', 'RapidAPI Scraper', 'Apify'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+              
+              {/* AI Section - now integrated into the flex container */}
+              <div className="w-full mt-8"> {/* Full width, with margin top */}
+                <h3 className="text-2xl font-bold text-pink-400 mb-6">AI</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {/* AI Scrapping */}
+                  <div>
+                    <h4 className="text-lg font-bold text-blue-400 mb-2">AI Scrapping</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'Chat4Data', 'Firecrawl', 'Crawl4AI', 'Gobii', 'NewsAPI', 'SerpApi', 'RapidAPI Scraper', 'Apify'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* Full Stack AI Tools */}
-                <div>
-                  <h4 className="text-lg font-bold text-purple-400 mb-2">Full Stack AI Tools</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Tilda', 'Superblocks', 'Ciroos AI', 'Emergent.sh', 'Elestio', 'Databutton', 'Base44', 'Stitch', 'Dribbble', 'Supabase', 'SoftGen AI', 'Durable', 'Bubble', 'Lovable.dev', 'Bolt'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                  {/* Full Stack AI Tools */}
+                  <div>
+                    <h4 className="text-lg font-bold text-purple-400 mb-2">Full Stack AI Tools</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'Tilda', 'Superblocks', 'Ciroos AI', 'Emergent.sh', 'Elestio', 'Databutton', 'Base44', 'Stitch', 'Dribbble', 'Supabase', 'SoftGen AI', 'Durable', 'Bubble', 'Lovable.dev', 'Bolt'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* No Code AI Tools */}
-                <div>
-                  <h4 className="text-lg font-bold text-green-400 mb-2">No Code AI Tools</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'OneDev', 'agenticSeek', 'Gitdocify', 'Palantir AIP', 'Jules', 'Deepsite', 'Eraser', 'Firebase Studio', 'Trae AI', 'Windsurf Editor', 'Cursor'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                  {/* No Code AI Tools */}
+                  <div>
+                    <h4 className="text-lg font-bold text-green-400 mb-2">No Code AI Tools</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'OneDev', 'agenticSeek', 'Gitdocify', 'Palantir AIP', 'Jules', 'Deepsite', 'Eraser', 'Firebase Studio', 'Trae AI', 'Windsurf Editor', 'Cursor'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* AI Workflows */}
-                <div>
-                  <h4 className="text-lg font-bold text-yellow-400 mb-2">AI Workflows</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'n8n', 'Hugging Face Agents', 'Make', 'Globant AI Pods', 'MindStudio', 'Cheat Layer', 'Pickaxe', 'Pinecone', 'Beam AI Agentic Workflows', 'Zapier', 'AutoGen', 'LangChain', 'LlamaIndex Agentic Document Workflows', 'CrewAI', 'Model Context Protocol (MCP)'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                  {/* AI Workflows */}
+                  <div>
+                    <h4 className="text-lg font-bold text-yellow-400 mb-2">AI Workflows</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'n8n', 'Hugging Face Agents', 'Make', 'Globant AI Pods', 'MindStudio', 'Cheat Layer', 'Pickaxe', 'Pinecone', 'Beam AI Agentic Workflows', 'Zapier', 'AutoGen', 'LangChain', 'LlamaIndex Agentic Document Workflows', 'CrewAI', 'Model Context Protocol (MCP)'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* LLMs */}
-                <div>
-                  <h4 className="text-lg font-bold text-blue-400 mb-2">LLMs</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Xavier AI', 'Prompt Genie', 'Corcel', 'Llama', 'Pinokio', 'Ollama', 'Qwen', 'Bolt AI', 'Claude', 'DeepSeek Chat', 'Microsoft Copilot', 'Google Gemini', 'ChatGPT'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                  {/* LLMs */}
+                  <div>
+                    <h4 className="text-lg font-bold text-blue-400 mb-2">LLMs</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'Xavier AI', 'Prompt Genie', 'Corcel', 'Llama', 'Pinokio', 'Ollama', 'Qwen', 'Bolt AI', 'Claude', 'DeepSeek Chat', 'Microsoft Copilot', 'Google Gemini', 'ChatGPT'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* Agentic AI */}
-                <div>
-                  <h4 className="text-lg font-bold text-pink-400 mb-2">Agentic AI</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Runner H', 'Surfer H', 'Tester H', 'Agent.ai', 'Spur', 'Fellou', 'GooseAI', 'Ace', 'Operator', 'Suna.so Agents', 'GenSpark Super Agent'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                  {/* Agentic AI */}
+                  <div>
+                    <h4 className="text-lg font-bold text-pink-400 mb-2">Agentic AI</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'Runner H', 'Surfer H', 'Tester H', 'Agent.ai', 'Spur', 'Fellou', 'GooseAI', 'Ace', 'Operator', 'Suna.so Agents', 'GenSpark Super Agent'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* AI in Research */}
-                <div>
-                  <h4 className="text-lg font-bold text-purple-400 mb-2">AI in Research</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Anara', 'Perplexity AI', 'Grok'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                  {/* AI in Research */}
+                  <div>
+                    <h4 className="text-lg font-bold text-purple-400 mb-2">AI in Research</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'Anara', 'Perplexity AI', 'Grok'
+                      ].map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
