@@ -169,6 +169,46 @@ function App() {
     }
   ];
 
+  // Define AI tools data structure
+  const aiToolsCategories = [
+    {
+      title: "AI Scrapping",
+      color: "blue-400",
+      tools: ['Chat4Data', 'Firecrawl', 'Crawl4AI', 'Gobii', 'NewsAPI', 'SerpApi', 'RapidAPI Scraper', 'Apify']
+    },
+    {
+      title: "Full Stack AI Tools",
+      color: "purple-400",
+      tools: ['Tilda', 'Superblocks', 'Ciroos AI', 'Emergent.sh', 'Elestio', 'Databutton', 'Base44', 'Stitch', 'Dribbble', 'Supabase', 'SoftGen AI', 'Durable', 'Bubble', 'Lovable.dev', 'Bolt']
+    },
+    {
+      title: "No Code AI Tools",
+      color: "green-400",
+      tools: ['OneDev', 'agenticSeek', 'Gitdocify', 'Palantir AIP', 'Jules', 'Deepsite', 'Eraser', 'Firebase Studio', 'Trae AI', 'Windsurf Editor', 'Cursor']
+    },
+    {
+      title: "AI Workflows",
+      color: "yellow-400",
+      tools: ['n8n', 'Hugging Face Agents', 'Make', 'Globant AI Pods', 'MindStudio', 'Cheat Layer', 'Pickaxe', 'Pinecone', 'Beam AI Agentic Workflows', 'Zapier', 'AutoGen', 'LangChain', 'LlamaIndex Agentic Document Workflows', 'CrewAI', 'Model Context Protocol (MCP)']
+    },
+    {
+      title: "LLMs",
+      color: "blue-400",
+      tools: ['Xavier AI', 'Prompt Genie', 'Corcel', 'Llama', 'Pinokio', 'Ollama', 'Qwen', 'Bolt AI', 'Claude', 'DeepSeek Chat', 'Microsoft Copilot', 'Google Gemini', 'ChatGPT']
+    },
+    {
+      title: "Agentic AI",
+      color: "pink-400",
+      tools: ['Runner H', 'Surfer H', 'Tester H', 'Agent.ai', 'Spur', 'Fellou', 'GooseAI', 'Ace', 'Operator', 'Suna.so Agents', 'GenSpark Super Agent']
+    },
+    {
+      title: "AI in Research",
+      color: "purple-400",
+      tools: ['Anara', 'Perplexity AI', 'Grok']
+    }
+  ];
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-gray-100 font-sans">
       {/* Header */}
@@ -536,101 +576,22 @@ function App() {
               </div>
             </div>
             
-            {/* AI Section - This is now directly below the main skill grid */}
+            {/* AI Section - This is now structured using a map from aiToolsCategories */}
             <div className="mt-12">
               <h3 className="text-2xl font-bold text-pink-400 mb-6">AI</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* AI Scrapping */}
-                <div>
-                  <h4 className="text-lg font-bold text-blue-400 mb-2">AI Scrapping</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Chat4Data', 'Firecrawl', 'Crawl4AI', 'Gobii', 'NewsAPI', 'SerpApi', 'RapidAPI Scraper', 'Apify'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
+                {aiToolsCategories.map((category) => (
+                  <div key={category.title}>
+                    <h4 className={`text-lg font-bold text-${category.color} mb-2`}>{category.title}</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {category.tools.map((tool) => (
+                        <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                {/* Full Stack AI Tools */}
-                <div>
-                  <h4 className="text-lg font-bold text-purple-400 mb-2">Full Stack AI Tools</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Tilda', 'Superblocks', 'Ciroos AI', 'Emergent.sh', 'Elestio', 'Databutton', 'Base44', 'Stitch', 'Dribbble', 'Supabase', 'SoftGen AI', 'Durable', 'Bubble', 'Lovable.dev', 'Bolt'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {/* No Code AI Tools */}
-                <div>
-                  <h4 className="text-lg font-bold text-green-400 mb-2">No Code AI Tools</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'OneDev', 'agenticSeek', 'Gitdocify', 'Palantir AIP', 'Jules', 'Deepsite', 'Eraser', 'Firebase Studio', 'Trae AI', 'Windsurf Editor', 'Cursor'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {/* AI Workflows */}
-                <div>
-                  <h4 className="text-lg font-bold text-yellow-400 mb-2">AI Workflows</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'n8n', 'Hugging Face Agents', 'Make', 'Globant AI Pods', 'MindStudio', 'Cheat Layer', 'Pickaxe', 'Pinecone', 'Beam AI Agentic Workflows', 'Zapier', 'AutoGen', 'LangChain', 'LlamaIndex Agentic Document Workflows', 'CrewAI', 'Model Context Protocol (MCP)'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {/* LLMs */}
-                <div>
-                  <h4 className="text-lg font-bold text-blue-400 mb-2">LLMs</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Xavier AI', 'Prompt Genie', 'Corcel', 'Llama', 'Pinokio', 'Ollama', 'Qwen', 'Bolt AI', 'Claude', 'DeepSeek Chat', 'Microsoft Copilot', 'Google Gemini', 'ChatGPT'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {/* Agentic AI */}
-                <div>
-                  <h4 className="text-lg font-bold text-pink-400 mb-2">Agentic AI</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Runner H', 'Surfer H', 'Tester H', 'Agent.ai', 'Spur', 'Fellou', 'GooseAI', 'Ace', 'Operator', 'Suna.so Agents', 'GenSpark Super Agent'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {/* AI in Research */}
-                <div>
-                  <h4 className="text-lg font-bold text-purple-400 mb-2">AI in Research</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      'Anara', 'Perplexity AI', 'Grok'
-                    ].map((tool) => (
-                      <span key={tool} className="bg-slate-700 text-gray-200 px-3 py-1 rounded-full text-sm">
-                        {tool}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
