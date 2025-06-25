@@ -5,11 +5,16 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Portfolio_full/',
-  build: { // <--- ENSURE THIS 'build' OBJECT IS HERE
-    minify: false // <--- AND THIS LINE IS INSIDE IT
+  build: {
+    minify: false,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
+    }
   },
-  // Keep optimizeDeps if you need it, but the 'build' section is key
-  // optimizeDeps: {
-  //   exclude: ['lucide-react'],
-  // },
+  define: {
+    // Force include AI Scrapping content
+    __AI_SCRAPPING_CONTENT__: JSON.stringify("AI Scrapping")
+  }
 })
