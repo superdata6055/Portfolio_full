@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/Portfolio_full/',
   build: {
+    outDir: 'docs',
     minify: false,
     rollupOptions: {
       output: {
