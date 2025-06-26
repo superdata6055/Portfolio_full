@@ -1,0 +1,45 @@
+import React from 'react';
+
+function App() {
+  const aiToolsCategories = [
+    {
+      title: "AI Scrapping",
+      color: "blue-400",
+      tools: ['Chat4Data', 'Firecrawl', 'Crawl4AI', 'Gobii', 'NewsAPI', 'SerpApi', 'RapidAPI Scraper', 'Apify']
+    },
+    {
+      title: "Full Stack AI Tools",
+      color: "purple-400",
+      tools: ['Tilda', 'Superblocks'] // Just a couple for a small test
+    },
+    {
+      title: "Test Category", // Add a distinct, simple category to check for
+      color: "red-400",
+      tools: ['TestTool1', 'TestTool2']
+    }
+  ];
+
+  return (
+    <div style={{ padding: '50px', backgroundColor: '#2d3748', color: '#cbd5e0', minHeight: '100vh', fontFamily: 'sans-serif' }}>
+      <h1 style={{ color: '#63b3ed', fontSize: '2.5rem', marginBottom: '30px' }}>AI Section Debug Test</h1>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '25px' }}>
+        {aiToolsCategories.map((category) => (
+          <div key={category.title} style={{ border: '1px solid #4a5568', borderRadius: '10px', padding: '20px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}>
+            <h4 style={{ color: category.color.replace('-400','') + '-400', fontSize: '1.5rem', marginBottom: '15px' }}>{category.title}</h4>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+              {category.tools.map((tool) => (
+                <span key={tool} style={{ backgroundColor: '#4a5568', color: '#e2e8f0', padding: '8px 15px', borderRadius: '20px', fontSize: '0.9rem' }}>
+                  {tool}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+      <p style={{ marginTop: '50px', fontSize: '0.9rem', color: '#a0aec0' }}>If you see this and the AI sections, Vite is working for this isolated case.</p>
+    </div>
+  );
+}
+
+export default App;
