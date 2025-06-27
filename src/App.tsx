@@ -55,6 +55,15 @@ function App() {
 
   const projects = [
     {
+    title: "Copyright Image Retrieval System",
+    role: "Developer / System Architect", // Or relevant role
+    date: "May 2025 – Present", // Adjust dates as needed
+    location: "Irvine, CA", // Adjust location
+    color: "teal", // Choose a new color like 'teal', 'orange', etc.
+    skills: ["Python", "Image Processing", "CSV Handling", "Data Matching", "Automation"], // Add specific technologies used
+    description: "This project is a Copyright Image Retrieval System designed to automatically match and retrieve copyright registration images based on data from a CSV file containing copyright records. The system addresses the challenge of linking copyright registration numbers to their corresponding image files when the filenames don't directly correspond to the registration data. This system provides a robust, scalable solution for automating the retrieval of copyright registration images based on structured data, significantly reducing manual effort in copyright management workflows."
+    },
+    {
       title: "Leveraging AI for Strategic Banking Expansion",
       subtitle: "JPMorgan Chase EDGE Project",
       role: "AI Consultant",
