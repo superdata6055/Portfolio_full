@@ -79,8 +79,8 @@ function App() {
       date: "Jan 2025 – Mar 2025",
       location: "Irvine, CA",
       color: "purple",
-      skills: ["Python", "LangChain", "Network Analysis", "Predictive Modeling", "PyTorch"],
-      description: "Enhanced influencer identification and audience segmentation accuracy by 30% using Python and predictive modeling. Implemented community detection algorithms and LangChain for advanced audience analysis, optimizing campaign engagement through data-driven strategies."
+      skills: ["Python", "NetworkX", "LangChain", "Community Detection", "Predictive Modeling", "Social Network Analysis", "Data Visualization"],
+      description: "Developed a data-driven framework to enhance influencer identification and audience segmentation on Facebook. Improved targeting accuracy by 30% using predictive modeling and community detection algorithms. Integrated LangChain for enriched analysis of social graphs, enabling more effective, personalized marketing strategies and boosting campaign engagement rates."
     },
     {
       title: "Maserati Marketing via Data Insights",
