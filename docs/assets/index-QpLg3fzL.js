@@ -7310,7 +7310,7 @@ function App() {
       location: "Irvine, CA",
       color: "blue",
       skills: ["Python", "SQL", "PostgreSQL", "Tableau", "Power BI", "Machine Learning", "NLP"],
-      description: "Conceptualized and led the development of JPX MetaBank, an autonomous, AR/VR-powered digital banking division for JPMorgan Chase designed to serve global customers by 2050. The division reimagines banking as an immersive, AI-native experience aligned with decentralized finance, blockchain infrastructure, and inclusive global access.Led end-to-end strategy development including market analysis, business model design, and financial forecasting (break-even by 2031, $44B revenue by 2045) Crafted a full executive pitch deck, investor narrative, and speaker notes for a simulated Shark Tank-style presentation Conducted scenario planning and competitive analysis for future trends in DeFi, XR, AI, and tokenized finance"
+      description: "Conceptualized and led the development of JPX MetaBank, an autonomous, AR/VR-powered digital banking division for JPMorgan Chase designed to serve global customers by 2050. The division reimagines banking as an immersive, AI-native experience aligned with decentralized finance, blockchain infrastructure, and inclusive global access.Led end-to-end strategy development including market analysis, business model design, and financial forecasting (break-even by 2031, $44B revenue by 2045). Crafted a full executive pitch deck, investor narrative, and speaker notes for a simulated Shark Tank-style presentation. Conducted scenario planning and competitive analysis for future trends in DeFi, XR, AI, and tokenized finance."
     },
     {
       title: "Facebook Marketing Strategies",
