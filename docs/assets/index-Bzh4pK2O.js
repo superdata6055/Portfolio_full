@@ -7254,7 +7254,7 @@ function App() {
       title: "Business Analyst Intern",
       company: "Blue Shield of California",
       location: "Long Beach, CA, USA",
-      date: "January 2025 - Present",
+      date: "January 2025 - June 2025",
       skills: [
         { name: "Python", icon: Code },
         { name: "SQL", icon: Database },
