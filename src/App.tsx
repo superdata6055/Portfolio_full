@@ -224,7 +224,7 @@ function App() {
       <header className="fixed w-full bg-slate-900/80 backdrop-blur-sm z-50 shadow-md">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-            Anirudh Rajeev
+            Ani Rajeev
           </h1>
           
           {/* Desktop Navigation */}
@@ -282,18 +282,18 @@ function App() {
           <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg')] bg-cover bg-center opacity-20"></div>
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <h1 className="text-6xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-purple-600 bg-clip-text animate-gradient">
-              AI Engineer
+              Business Analyst
             </h1>
             <h2 className="text-4xl md:text-5xl text-gray-300 mb-8">
-              & Data Analyst
+              & AI Engineer
             </h2>
             <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Bridging the gap between complex data and impactful business insights through machine learning, NLP, and data-driven solutions.
+              Helping bridge the gap between complex data and impactful business insights through ML, NLP and data-driven solutions.
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-gray-300 mb-12">
               <div className="flex items-center gap-2">
                 <MapPin size={20} className="text-pink-400" />
-                <span>San Francisco, CA</span>
+                <span>San Francisco Bay Area, CA</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={20} className="text-purple-400" />
@@ -335,14 +335,16 @@ function App() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a results-oriented AI Engineer with nearly 2 years of experience across analytics, automation, and strategic consulting. 
-                My work bridges the gap between complex data and impactful business insights, driving measurable improvements in efficiency, 
-                customer engagement, and predictive intelligence.
+                I'm a results-oriented AI Engineer with nearly 2 years of experience across analytics, automation, and strategic consulting, with a Master's in Business Analytics from University of California, Irvine, California. 
+                I love to make complex data lead to actionable business insights driving improvements in efficiency and predictive intelligence.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 With expertise in machine learning, NLP, and data-driven insights, I'm passionate about solving real-world problems 
                 through innovative AI solutions. I thrive in collaborative environments where I can leverage my technical skills 
                 and business acumen to deliver tangible results.
+              </p>
+              <p className="text-lg text-gray-300 leading-relaxed"> 
+                I'm looking for opputunities to collaboratively build AI driven solutions that address real world challenges using my knowledge in data science.
               </p>
               <div className="mt-8">
                 <h3 className="text-xl font-bold text-blue-400 mb-4">Interests & Hobbies</h3>
@@ -384,7 +386,7 @@ function App() {
         <section id="experience" className="py-16">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block">
-              Professional Experience
+              Experience
             </h2>
           
             <div className="space-y-8">
