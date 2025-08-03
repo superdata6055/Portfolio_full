@@ -7363,7 +7363,7 @@ function App() {
     },
     {
       title: "Voice Cabinator",
-      role: "Data Analyst",
+      role: "Business Analyst",
       date: "Jun – Oct 2022",
       location: "Bengaluru, India",
       color: "red",
@@ -7399,7 +7399,7 @@ function App() {
     },
     {
       title: "Marketing via K-Means Clustering",
-      role: "Data Analyst",
+      role: "Business Analyst",
       date: "Sep – Dec 2024",
       location: "Irvine, CA",
       color: "yellow",
@@ -7456,7 +7456,7 @@ function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-gray-100 font-sans", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "fixed w-full bg-slate-900/80 backdrop-blur-sm z-50 shadow-md", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 py-4 flex justify-between items-center", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500", children: "Anirudh Rajeev" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500", children: "Ani Rajeev" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden md:flex space-x-8", children: ["about", "experience", "projects", "skills", "education", "contact"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
           "button",
           {
@@ -7489,13 +7489,13 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "min-h-[90vh] flex flex-col justify-center relative overflow-hidden", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-[url('https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg')] bg-cover bg-center opacity-20" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 max-w-4xl mx-auto text-center", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-purple-600 bg-clip-text animate-gradient", children: "AI Engineer" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl md:text-5xl text-gray-300 mb-8", children: "& Data Analyst" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed", children: "Bridging the gap between complex data and impactful business insights through machine learning, NLP, and data-driven solutions." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-purple-600 bg-clip-text animate-gradient", children: "Business Analyst" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl md:text-5xl text-gray-300 mb-8", children: "& AI Engineer" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed", children: "Helping bridge the gap between complex data and impactful business insights through ML, NLP and data-driven solutions." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row items-center justify-center gap-6 text-gray-300 mb-12", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 20, className: "text-pink-400" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "San Francisco, CA" })
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "San Francisco Bay Area, CA" })
             ] }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 20, className: "text-purple-400" }),
@@ -7537,11 +7537,12 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block", children: "About Me" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I'm a results-oriented AI Engineer with nearly 2 years of experience across analytics, automation, and strategic consulting. My work bridges the gap between complex data and impactful business insights, driving measurable improvements in efficiency, customer engagement, and predictive intelligence." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "With expertise in machine learning, NLP, and data-driven insights, I'm passionate about solving real-world problems through innovative AI solutions. I thrive in collaborative environments where I can leverage my technical skills and business acumen to deliver tangible results." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I am a result-oriented AI engineer with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "With expertise in machine learning, NLP, data-driven insights, and passionate about solving real world problems through innovative AI solutions, I thrive in collaborative environments where I can leverage technical skills and business acumen to deliver tangible results." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I'm looking for opportunities to collaboratively build AI solutions that address real challenges using my knowledge in data science." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-blue-400 mb-4", children: "Interests & Hobbies" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-3", children: ["Numismatics", "Mridangam", "Music", "AI", "Mountain Biking", "Gym", "Rock Climbing", "Travel"].map((interest) => /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "bg-slate-700/50 px-4 py-2 rounded-full text-sm flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-3", children: ["Mountain Biking", "Gym", "Rock Climbing", "Music", "AI", "Traveling"].map((interest) => /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "bg-slate-700/50 px-4 py-2 rounded-full text-sm flex items-center gap-2", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { size: 16, className: "text-pink-400" }),
               interest
             ] }, interest)) })
@@ -7566,7 +7567,7 @@ function App() {
         ] })
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "experience", className: "py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block", children: "Professional Experience" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block", children: "Experience" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-8", children: experiences.map((exp, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-slate-800/50 rounded-lg p-6 hover:bg-slate-800/70 transition-all", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row md:items-start justify-between mb-6", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
@@ -7821,7 +7822,7 @@ function App() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-slate-900 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-400", children: [
       "Built with ",
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-red-400", children: "❤" }),
-      " by Anirudh Rajeev © ",
+      " by Ani Rajeev © ",
       (/* @__PURE__ */ new Date()).getFullYear()
     ] }) }) })
   ] });

@@ -124,7 +124,7 @@ function App() {
     },
     {
       title: "Voice Cabinator",
-      role: "Data Analyst",
+      role: "Business Analyst",
       date: "Jun – Oct 2022",
       location: "Bengaluru, India",
       color: "red",
@@ -160,7 +160,7 @@ function App() {
     },
     {
       title: "Marketing via K-Means Clustering",
-      role: "Data Analyst",
+      role: "Business Analyst",
       date: "Sep – Dec 2024",
       location: "Irvine, CA",
       color: "yellow",
@@ -335,21 +335,18 @@ function App() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a results-oriented AI Engineer with nearly 2 years of experience across analytics, automation, and strategic consulting, with a Master's in Business Analytics from University of California, Irvine, California. 
-                I love to make complex data lead to actionable business insights driving improvements in efficiency and predictive intelligence.
+                I am a result-oriented AI engineer with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                With expertise in machine learning, NLP, and data-driven insights, I'm passionate about solving real-world problems 
-                through innovative AI solutions. I thrive in collaborative environments where I can leverage my technical skills 
-                and business acumen to deliver tangible results.
+                With expertise in machine learning, NLP, data-driven insights, and passionate about solving real world problems through innovative AI solutions, I thrive in collaborative environments where I can leverage technical skills and business acumen to deliver tangible results.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed"> 
-                I'm looking for opputunities to collaboratively build AI driven solutions that address real world challenges using my knowledge in data science.
+                I'm looking for opportunities to collaboratively build AI solutions that address real challenges using my knowledge in data science.
               </p>
               <div className="mt-8">
                 <h3 className="text-xl font-bold text-blue-400 mb-4">Interests & Hobbies</h3>
                 <div className="flex flex-wrap gap-3">
-                  {['Numismatics', 'Mridangam', 'Music', 'AI', 'Mountain Biking', 'Gym', 'Rock Climbing', 'Travel'].map((interest) => (
+                  {['Mountain Biking', 'Gym', 'Rock Climbing', 'Music', 'AI', 'Traveling'].map((interest) => (
                     <span key={interest} className="bg-slate-700/50 px-4 py-2 rounded-full text-sm flex items-center gap-2">
                       <Heart size={16} className="text-pink-400" />
                       {interest}
@@ -717,7 +714,7 @@ function App() {
       <footer className="bg-slate-900 py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-400">
-            Built with <span className="text-red-400">❤</span> by Anirudh Rajeev © {new Date().getFullYear()}
+            Built with <span className="text-red-400">❤</span> by Ani Rajeev © {new Date().getFullYear()}
           </p>
         </div>
       </footer>

@@ -1,6 +1,6 @@
-# Anirudh Rajeev - AI Engineer & Data Analyst Portfolio
+# Ani Rajeev - Business Analyst & AI Engineer Portfolio
 
-This repository contains the code for Anirudh Rajeev's professional portfolio website, showcasing his skills, experience, and projects as an AI Engineer and Data Analyst.
+This repository contains the code for Ani Rajeev's professional portfolio website, showcasing his skills, experience, and projects as a Business Analyst and AI Engineer.
 
 ## 🚀 Features
 
