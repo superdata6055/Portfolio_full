@@ -35,7 +35,7 @@ function App() {
       ]
     },
     {
-      title: "AI Engineer",
+      title: "Consulting Business Analyst",
       company: "Kramah Software",
       location: "Bengaluru, KA, India",
       date: "July 2023 - December 2023",
@@ -142,7 +142,7 @@ function App() {
     },
     {
       title: "CQB Mission Planning AI",
-      role: "AI Engineer",
+      role: "Product Manager",
       date: "Apr 2025 – Present",
       location: "Irvine, CA",
       color: "purple",
@@ -285,7 +285,7 @@ function App() {
               Business Analyst
             </h1>
             <h2 className="text-4xl md:text-5xl text-gray-300 mb-8">
-              & AI Engineer
+              & Passionate about Data-Driven AI
             </h2>
             <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
               Helping bridge the gap between complex data and impactful business insights through ML, NLP and data-driven solutions.
@@ -335,7 +335,7 @@ function App() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I am a result-oriented AI engineer with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence.
+                I am a result-oriented and who is passionate about data-driven AI with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 With expertise in machine learning, NLP, data-driven insights, and passionate about solving real world problems through innovative AI solutions, I thrive in collaborative environments where I can leverage technical skills and business acumen to deliver tangible results.

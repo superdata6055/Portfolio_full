@@ -1,6 +1,6 @@
-# Ani Rajeev - Business Analyst & AI Engineer Portfolio
+# Ani Rajeev - Business Analyst & Passionate about Data-Driven AI Portfolio
 
-This repository contains the code for Ani Rajeev's professional portfolio website, showcasing his skills, experience, and projects as a Business Analyst and AI Engineer.
+This repository contains the code for Ani Rajeev's professional portfolio website, showcasing his skills, experience, and projects as a Business Analyst and who is Passionate about Data-Driven AI.
 
 ## 🚀 Features
 

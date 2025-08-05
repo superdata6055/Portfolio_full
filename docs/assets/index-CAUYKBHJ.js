@@ -7270,7 +7270,7 @@ function App() {
       ]
     },
     {
-      title: "AI Engineer",
+      title: "Consulting Business Analyst",
       company: "Kramah Software",
       location: "Bengaluru, KA, India",
       date: "July 2023 - December 2023",
@@ -7381,7 +7381,7 @@ function App() {
     },
     {
       title: "CQB Mission Planning AI",
-      role: "AI Engineer",
+      role: "Product Manager",
       date: "Apr 2025 – Present",
       location: "Irvine, CA",
       color: "purple",
@@ -7490,7 +7490,7 @@ function App() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-[url('https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg')] bg-cover bg-center opacity-20" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 max-w-4xl mx-auto text-center", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-purple-600 bg-clip-text animate-gradient", children: "Business Analyst" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl md:text-5xl text-gray-300 mb-8", children: "& AI Engineer" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl md:text-5xl text-gray-300 mb-8", children: "& Passionate about Data-Driven AI" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed", children: "Helping bridge the gap between complex data and impactful business insights through ML, NLP and data-driven solutions." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row items-center justify-center gap-6 text-gray-300 mb-12", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
@@ -7537,7 +7537,7 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block", children: "About Me" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I am a result-oriented AI engineer with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I am a result-oriented and who is passionate about data-driven AI with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence." }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "With expertise in machine learning, NLP, data-driven insights, and passionate about solving real world problems through innovative AI solutions, I thrive in collaborative environments where I can leverage technical skills and business acumen to deliver tangible results." }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I'm looking for opportunities to collaboratively build AI solutions that address real challenges using my knowledge in data science." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8", children: [
