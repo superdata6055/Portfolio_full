@@ -16,6 +16,57 @@ function App() {
 
   const experiences = [
     {
+      title: "Junior Product Consultant",
+      company: "Olivio",
+      location: "San Francisco, CA",
+      date: "October 2025 – Present",
+      skills: [
+        { name: "Product Management", icon: Briefcase },
+        { name: "Data Analytics", icon: BarChart },
+        { name: "OSINT", icon: Database },
+        { name: "Prototyping", icon: Code }
+      ],
+      description: [
+        "Led product prototyping and feature validation, turning rough ideas into usable flows that teams could actually build",
+        "Built and managed product timelines, coordinating across teams to keep delivery on track without the usual chaos",
+        "Used OSINT and data analytics to guide product decisions, uncover user signals, and improve roadmap accuracy"
+      ]
+    },
+    {
+      title: "Junior Product Engineer",
+      company: "SF Lifeline (Volunteer Civic Tech Initiative)",
+      location: "San Francisco, CA",
+      date: "August 2025 – January 2026",
+      skills: [
+        { name: "Product Management", icon: Briefcase },
+        { name: "Cross-functional Leadership", icon: Brain },
+        { name: "Data Analysis", icon: BarChart },
+        { name: "Agile", icon: Code }
+      ],
+      description: [
+        "Directed cross-functional teams across engineering, design, data, and healthcare, spearheading the roadmap for solutions that closed emergency communication gaps in underserved communities",
+        "Conducted deep-dive analyses of user requirements and workflows, applying critical problem-solving and data-driven mapping to uncover key drivers of translation challenges",
+        "Defined and delivered MVP scope by translating technical requirements into actionable features, ensuring multilingual accessibility and improving operational efficiency through agile collaboration"
+      ]
+    },
+    {
+      title: "Intern",
+      company: "Pre-Accelerator Founder | Funding Breakthrough Lab (Cohort Beta)",
+      location: "San Francisco, CA",
+      date: "August 2025 – November 2025",
+      skills: [
+        { name: "Business Strategy", icon: Briefcase },
+        { name: "Data Analysis", icon: BarChart },
+        { name: "Financial Modeling", icon: ChartBar },
+        { name: "Pitching", icon: Brain }
+      ],
+      description: [
+        "Selected into a competitive 10-week pre-accelerator, pitching B2B SaaS/AI solutions to investors and applying analytical problem-solving to refine financial models, GTM strategies, and KPI-driven growth plans",
+        "Collaborated with founders and industry experts to evaluate valuations, term sheets, and corporate structures, strengthening data analysis and business health reporting under high-pressure conditions",
+        "Delivered weekly presentations and reports in pitch competitions, sharpening leadership, communication, and stakeholder alignment skills to drive clarity and impact"
+      ]
+    },
+    {
       title: "Business Analyst Intern",
       company: "Blue Shield of California",
       location: "Long Beach, CA, USA",
@@ -229,7 +280,7 @@ function App() {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {['about', 'experience', 'projects', 'skills', 'education', 'contact'].map((item) => (
+            {['about', 'experience', 'hackathons', 'projects', 'skills', 'education', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -257,7 +308,7 @@ function App() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-slate-800 py-4">
             <div className="container mx-auto px-4 flex flex-col space-y-4">
-              {['about', 'experience', 'projects', 'skills', 'education', 'contact'].map((item) => (
+              {['about', 'experience', 'hackathons', 'projects', 'skills', 'education', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -335,13 +386,16 @@ function App() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I am a result-oriented and who is passionate about data-driven AI with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence.
+                I am a product-focused professional passionate about bridging data-driven insights with product innovation. With experience spanning product management, data analytics, and AI/ML engineering, I've led cross-functional teams to deliver impactful solutions—from prototyping features at Olivio to building civic tech products at SF Lifeline that address real-world challenges in underserved communities.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                With expertise in machine learning, NLP, data-driven insights, and passionate about solving real world problems through innovative AI solutions, I thrive in collaborative environments where I can leverage technical skills and business acumen to deliver tangible results.
+                My journey includes earning 3rd place at a Y Combinator-sponsored hackathon, where I led a team to build an AI-powered lead verification system in 4.5 hours, presenting to judges from OpenAI, Nvidia, and Apple. I've also completed a competitive pre-accelerator program, refining B2B SaaS/AI solutions and pitching to investors while strengthening my analytical problem-solving and strategic thinking.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed"> 
-                I'm looking for opportunities to collaboratively build AI solutions that address real challenges using my knowledge in data science.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                With a Master's in Business Analytics from UC Irvine and hands-on experience in product engineering, data science, and business analysis, I combine technical depth with product intuition. I've built everything from AI-driven recommendation systems (published research) to mission-critical planning tools, always focusing on translating complex data into actionable insights that drive real business value.
+              </p>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                I'm seeking opportunities to leverage my product management, data analytics, and AI expertise to build innovative solutions that solve meaningful problems and create measurable impact.
               </p>
               <div className="mt-8">
                 <h3 className="text-xl font-bold text-blue-400 mb-4">Interests & Hobbies</h3>
@@ -425,6 +479,68 @@ function App() {
                   </ul>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Hackathons Section */}
+        <section id="hackathons" className="py-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 border-b border-yellow-500 pb-2 inline-block flex items-center gap-2">
+              <Award size={28} className="text-yellow-400" />
+              Hackathons & Competitions
+            </h2>
+          
+            <div className="space-y-8">
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-lg p-6 hover:bg-slate-800/70 transition-all border border-yellow-500/20">
+                <div className="flex flex-col md:flex-row md:items-start justify-between mb-6">
+                  <div>
+                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
+                      <Award size={20} className="text-yellow-400" />
+                      AI-Powered Lead Verification | "Legit or Not" Hackathon – 3rd Place
+                    </h3>
+                    <p className="text-yellow-400 text-lg">Technical Data Analyst / Product Builder</p>
+                  </div>
+                  <div className="text-left md:text-right mt-2 md:mt-0">
+                    <p className="text-gray-400">August 2025 – Present</p>
+                    <p className="text-gray-500 flex items-center gap-1 md:justify-end mt-1">
+                      <MapPin size={16} />
+                      San Francisco, CA
+                    </p>
+                  </div>
+                </div>
+              
+                <div className="mb-4 flex flex-wrap gap-2">
+                  {[
+                    { name: "AI/ML", icon: Brain },
+                    { name: "Product Management", icon: Briefcase },
+                    { name: "CRM Integration", icon: Database },
+                    { name: "Twilio", icon: Cloud },
+                    { name: "GPT", icon: Bot },
+                    { name: "Data Analytics", icon: BarChart }
+                  ].map((skill, i) => (
+                    <span key={i} className="bg-slate-700/50 px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                      <skill.icon size={14} className="text-yellow-400" />
+                      {skill.name}
+                    </span>
+                  ))}
+                </div>
+
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2 text-gray-300">
+                    <ChevronRight size={18} className="text-yellow-400 mt-1 flex-shrink-0" />
+                    <span>Led the end-to-end development of an AI-driven lead verification system that reduced manual evaluation time by ~50%, integrating CRM workflows, Twilio, and GPT-powered models to streamline operational efficiency</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-300">
+                    <ChevronRight size={18} className="text-yellow-400 mt-1 flex-shrink-0" />
+                    <span>Guided a cross-functional team of 5 through rapid ideation, architecture, and implementation in 4.5 hours, applying analytical problem-solving and agile collaboration under high-pressure conditions</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-300">
+                    <ChevronRight size={18} className="text-yellow-400 mt-1 flex-shrink-0" />
+                    <span>Presented data-driven insights and results to judges from OpenAI, Nvidia, and Apple, earning 3rd place out of 20+ teams at a Y Combinator–sponsored hackathon</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
