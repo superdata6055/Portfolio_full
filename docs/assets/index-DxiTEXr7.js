@@ -7093,6 +7093,49 @@ const BookOpen = createLucideIcon("BookOpen", [
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
+const Bot = createLucideIcon("Bot", [
+  ["path", { d: "M12 8V4H8", key: "hb8ula" }],
+  ["rect", { width: "16", height: "12", x: "4", y: "8", rx: "2", key: "enze0r" }],
+  ["path", { d: "M2 14h2", key: "vft8re" }],
+  ["path", { d: "M20 14h2", key: "4cs60a" }],
+  ["path", { d: "M15 13v2", key: "1xurst" }],
+  ["path", { d: "M9 13v2", key: "rq6x2g" }]
+]);
+/**
+ * @license lucide-react v0.344.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Brain = createLucideIcon("Brain", [
+  [
+    "path",
+    {
+      d: "M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z",
+      key: "l5xja"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z",
+      key: "ep3f8r"
+    }
+  ],
+  ["path", { d: "M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4", key: "1p4c4q" }],
+  ["path", { d: "M17.599 6.5a3 3 0 0 0 .399-1.375", key: "tmeiqw" }],
+  ["path", { d: "M6.003 5.125A3 3 0 0 0 6.401 6.5", key: "105sqy" }],
+  ["path", { d: "M3.477 10.896a4 4 0 0 1 .585-.396", key: "ql3yin" }],
+  ["path", { d: "M19.938 10.5a4 4 0 0 1 .585.396", key: "1qfode" }],
+  ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
+  ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
+]);
+/**
+ * @license lucide-react v0.344.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
 const Briefcase = createLucideIcon("Briefcase", [
   ["rect", { width: "20", height: "14", x: "2", y: "7", rx: "2", ry: "2", key: "eto64e" }],
   ["path", { d: "M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "zwj3tp" }]
@@ -7117,6 +7160,15 @@ const Calendar = createLucideIcon("Calendar", [
  */
 const ChevronRight = createLucideIcon("ChevronRight", [
   ["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]
+]);
+/**
+ * @license lucide-react v0.344.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Cloud = createLucideIcon("Cloud", [
+  ["path", { d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", key: "p7xjir" }]
 ]);
 /**
  * @license lucide-react v0.344.0 - ISC
@@ -7250,6 +7302,57 @@ function App() {
     }
   };
   const experiences = [
+    {
+      title: "Junior Product Consultant",
+      company: "Olivio",
+      location: "San Francisco, CA",
+      date: "October 2025 – Present",
+      skills: [
+        { name: "Product Management", icon: Briefcase },
+        { name: "Data Analytics", icon: BarChart },
+        { name: "OSINT", icon: Database },
+        { name: "Prototyping", icon: Code }
+      ],
+      description: [
+        "Led product prototyping and feature validation, turning rough ideas into usable flows that teams could actually build",
+        "Built and managed product timelines, coordinating across teams to keep delivery on track without the usual chaos",
+        "Used OSINT and data analytics to guide product decisions, uncover user signals, and improve roadmap accuracy"
+      ]
+    },
+    {
+      title: "Junior Product Engineer",
+      company: "SF Lifeline (Volunteer Civic Tech Initiative)",
+      location: "San Francisco, CA",
+      date: "August 2025 – January 2026",
+      skills: [
+        { name: "Product Management", icon: Briefcase },
+        { name: "Cross-functional Leadership", icon: Brain },
+        { name: "Data Analysis", icon: BarChart },
+        { name: "Agile", icon: Code }
+      ],
+      description: [
+        "Directed cross-functional teams across engineering, design, data, and healthcare, spearheading the roadmap for solutions that closed emergency communication gaps in underserved communities",
+        "Conducted deep-dive analyses of user requirements and workflows, applying critical problem-solving and data-driven mapping to uncover key drivers of translation challenges",
+        "Defined and delivered MVP scope by translating technical requirements into actionable features, ensuring multilingual accessibility and improving operational efficiency through agile collaboration"
+      ]
+    },
+    {
+      title: "Intern",
+      company: "Pre-Accelerator Founder | Funding Breakthrough Lab (Cohort Beta)",
+      location: "San Francisco, CA",
+      date: "August 2025 – November 2025",
+      skills: [
+        { name: "Business Strategy", icon: Briefcase },
+        { name: "Data Analysis", icon: BarChart },
+        { name: "Financial Modeling", icon: BarChart },
+        { name: "Pitching", icon: Brain }
+      ],
+      description: [
+        "Selected into a competitive 10-week pre-accelerator, pitching B2B SaaS/AI solutions to investors and applying analytical problem-solving to refine financial models, GTM strategies, and KPI-driven growth plans",
+        "Collaborated with founders and industry experts to evaluate valuations, term sheets, and corporate structures, strengthening data analysis and business health reporting under high-pressure conditions",
+        "Delivered weekly presentations and reports in pitch competitions, sharpening leadership, communication, and stakeholder alignment skills to drive clarity and impact"
+      ]
+    },
     {
       title: "Business Analyst Intern",
       company: "Blue Shield of California",
@@ -7457,7 +7560,7 @@ function App() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "fixed w-full bg-slate-900/80 backdrop-blur-sm z-50 shadow-md", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 py-4 flex justify-between items-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500", children: "Ani Rajeev" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden md:flex space-x-8", children: ["about", "experience", "projects", "skills", "education", "contact"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden md:flex space-x-8", children: ["about", "experience", "hackathons", "projects", "skills", "education", "contact"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
           "button",
           {
             onClick: () => scrollToSection(item),
@@ -7475,7 +7578,7 @@ function App() {
           }
         )
       ] }),
-      mobileMenuOpen && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden bg-slate-800 py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 flex flex-col space-y-4", children: ["about", "experience", "projects", "skills", "education", "contact"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+      mobileMenuOpen && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden bg-slate-800 py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 flex flex-col space-y-4", children: ["about", "experience", "hackathons", "projects", "skills", "education", "contact"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
         "button",
         {
           onClick: () => scrollToSection(item),
@@ -7537,9 +7640,10 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block", children: "About Me" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I am a result-oriented and who is passionate about data-driven AI with nearly 2 years of experience across analytics automation and strategic consulting with a masters in business analytics from the university of California Irvine, California. I love to make complex data lead to actionable business insights, driving improvement in efficiency and predictive intelligence." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "With expertise in machine learning, NLP, data-driven insights, and passionate about solving real world problems through innovative AI solutions, I thrive in collaborative environments where I can leverage technical skills and business acumen to deliver tangible results." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I'm looking for opportunities to collaboratively build AI solutions that address real challenges using my knowledge in data science." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I am a product-focused professional passionate about bridging data-driven insights with product innovation. With experience spanning product management, data analytics, and AI/ML engineering, I've led cross-functional teams to deliver impactful solutions—from prototyping features at Olivio to building civic tech products at SF Lifeline that address real-world challenges in underserved communities." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "My journey includes earning 3rd place at a Y Combinator-sponsored hackathon, where I led a team to build an AI-powered lead verification system in 4.5 hours, presenting to judges from OpenAI, Nvidia, and Apple. I've also completed a competitive pre-accelerator program, refining B2B SaaS/AI solutions and pitching to investors while strengthening my analytical problem-solving and strategic thinking." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "With a Master's in Business Analytics from UC Irvine and hands-on experience in product engineering, data science, and business analysis, I combine technical depth with product intuition. I've built everything from AI-driven recommendation systems (published research) to mission-critical planning tools, always focusing on translating complex data into actionable insights that drive real business value." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-300 leading-relaxed", children: "I'm seeking opportunities to leverage my product management, data analytics, and AI expertise to build innovative solutions that solve meaningful problems and create measurable impact." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-blue-400 mb-4", children: "Interests & Hobbies" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-3", children: ["Mountain Biking", "Gym", "Rock Climbing", "Music", "AI", "Traveling"].map((interest) => /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "bg-slate-700/50 px-4 py-2 rounded-full text-sm flex items-center gap-2", children: [
@@ -7594,6 +7698,55 @@ function App() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: item })
           ] }, i)) })
         ] }, index)) })
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "hackathons", className: "py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "text-3xl font-bold mb-8 border-b border-yellow-500 pb-2 inline-block flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { size: 28, className: "text-yellow-400" }),
+          "Hackathons & Competitions"
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-lg p-6 hover:bg-slate-800/70 transition-all border border-yellow-500/20", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row md:items-start justify-between mb-6", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-white flex items-center gap-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { size: 20, className: "text-yellow-400" }),
+                'AI-Powered Lead Verification | "Legit or Not" Hackathon – 3rd Place'
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-yellow-400 text-lg", children: "Technical Data Analyst / Product Builder" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-left md:text-right mt-2 md:mt-0", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: "August 2025 – Present" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-500 flex items-center gap-1 md:justify-end mt-1", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 16 }),
+                "San Francisco, CA"
+              ] })
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-4 flex flex-wrap gap-2", children: [
+            { name: "AI/ML", icon: Brain },
+            { name: "Product Management", icon: Briefcase },
+            { name: "CRM Integration", icon: Database },
+            { name: "Twilio", icon: Cloud },
+            { name: "GPT", icon: Bot },
+            { name: "Data Analytics", icon: BarChart }
+          ].map((skill, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "bg-slate-700/50 px-3 py-1 rounded-full text-sm flex items-center gap-1", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(skill.icon, { size: 14, className: "text-yellow-400" }),
+            skill.name
+          ] }, i)) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-gray-300", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { size: 18, className: "text-yellow-400 mt-1 flex-shrink-0" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Led the end-to-end development of an AI-driven lead verification system that reduced manual evaluation time by ~50%, integrating CRM workflows, Twilio, and GPT-powered models to streamline operational efficiency" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-gray-300", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { size: 18, className: "text-yellow-400 mt-1 flex-shrink-0" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Guided a cross-functional team of 5 through rapid ideation, architecture, and implementation in 4.5 hours, applying analytical problem-solving and agile collaboration under high-pressure conditions" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-gray-300", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { size: 18, className: "text-yellow-400 mt-1 flex-shrink-0" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Presented data-driven insights and results to judges from OpenAI, Nvidia, and Apple, earning 3rd place out of 20+ teams at a Y Combinator–sponsored hackathon" })
+            ] })
+          ] })
+        ] }) })
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "projects", className: "py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold mb-8 border-b border-blue-500 pb-2 inline-block", children: "Featured Projects" }),
